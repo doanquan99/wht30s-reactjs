@@ -1,0 +1,29 @@
+.brand{
+    position: relative;
+}
+.brand .name{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.667;
+    font-weight: bold;
+    text-align: center;
+    padding: 9px 0;
+    border: 1px solid var(--black-color);
+}
+.brand .img{
+    width: 100%;
+}
+.brand .icon-hot{
+    position: absolute;
+    left: 28px;
+    top:-32px;
+}
+.brand .icon-lol{
+    position: absolute;
+    bottom: -50px;
+    left: -100px;
+}
+@media screen and (max-width:1080px) {
+    
+}

@@ -1,0 +1,21 @@
+.list-product-container{
+    width: 1612px;
+    max-width: 100%;
+    padding:142px 20px;
+    margin: 0 auto;
+}
+.list-product-container .item img{
+    width: 100%;
+}
+.list-product-container .button-container{
+    text-align: center;
+    margin-top: 60px;
+}
+@media screen and (max-width:739px) {
+    .list-product-container{
+        padding: 80px 20px;
+    }
+    .list-product-container .button-container{
+        margin-top: 30px;
+    }
+}

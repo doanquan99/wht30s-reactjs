@@ -1,0 +1,42 @@
+.product {
+    padding-bottom: 54px;
+}
+
+.product .product-img {
+    width: 100%;
+}
+
+.product .name {
+    font-size: 1.8rem;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 1.944;
+    padding-top: 30px;
+}
+
+.product .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.product .number-of-likes {
+    display: flex;
+    align-items: center;
+}
+
+.product .price {
+    font-size: 1.6rem;
+    color: rgb(34, 34, 34);
+    line-height: 2.188;
+}
+
+.product .number-of-likes {
+    font-size: 1.6rem;
+    color: rgb(102, 102, 102);
+    line-height: 2.188;
+}
+.product .number-of-likes img{
+    margin-right: 8px;
+}
